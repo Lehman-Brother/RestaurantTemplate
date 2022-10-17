@@ -11,3 +11,4 @@ navLinks.forEach((link) => {
     body.classList.toggle("open");
   });
 });
+

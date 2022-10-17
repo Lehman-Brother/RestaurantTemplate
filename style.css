@@ -816,6 +816,16 @@ select:focus {
   width: 800px;
 }
 
+.carousel-inner > .item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+
 @media only screen and (max-width: 600px) {
   .welcome-carousel-section {
     display: flex;
